@@ -34,6 +34,9 @@
   {{ "<!-- Web Monetization -->" | safeHTML }}
   <meta name="monetization" content="$ilp.uphold.com/GLrwmQrfDeU9">
   
+  {{ "<!-- Webmention script -->" | safeHTML }}
+  <script src="/js/webmention.min.js" async></script>
+  
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
