@@ -91,13 +91,29 @@ icon = "fa-linkedin-square"
 url = "https://www.linkedin.com/in/stephenajulu"
 weight = 2
 [[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/stephenajulu"
-weight = 3
-[[params.social]]
 icon = "fa-twitter-square"
 url = "https://twitter.com/stephenajulu"
+weight = 3
+[[params.social]]
+icon = "fa-github-square"
+url = "https://github.com/stephenajulu"
 weight = 4
+[[params.social]]
+icon = "fa-instagram-square"
+url = "https://instagram.com/stephenajulu"
+weight = 5
+[[params.social]]
+icon = "fa-youtube-square"
+url = "https://www.youtube.com/channel/UC043ZXL-t3yqtgcIxJmkHuA"
+weight = 6
+[[params.social]]
+icon = "fa-medium"
+url = "https://medium.com/@stephenajulu"
+weight = 7
+[[params.social]]
+icon = "fa-envelop-square"
+url = "mailto:ajulu@stephenajulu.com"
+weight = 8
 
 [author]
     name = "Stephen Ajulu"
