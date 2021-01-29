@@ -38,6 +38,8 @@
   {{ "<!-- Webmention script -->" | safeHTML }}
   <script src="/js/webmention.min.js" async></script>
   
+  {{ partial "metaicon.html" . }}
+  
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
@@ -49,4 +51,10 @@
     gtag('config', '{{ . }}');
   </script>
   {{ end }}
+    {{ "<!-- PWAUpdate Script -->" | safeHTML }}
+  <script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+</script>
 </head>
