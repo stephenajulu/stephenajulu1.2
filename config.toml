@@ -1,4 +1,4 @@
-baseURL = "http://stephenajuluv2.netlify.app/"
+baseURL = "https://stephenajuluv2.netlify.app/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
