@@ -38,6 +38,8 @@
   {{ "<!-- Webmention script -->" | safeHTML }}
   <script src="/js/webmention.min.js" async></script>
   
+  {{ partial "metaicon.html" . }}
+  
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
