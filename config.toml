@@ -62,10 +62,10 @@ blogPageURL = "blog"
 notesPageURL = "notes"
 contactLink = "contact"
 copyright = "All right reserved copyright © Stephen Ajulu 2021"
-footerLogo = "images/logo.png"
+footerLogo = "images/favicon.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
-logo = "images/logo.png"
+logo = "images/favicon.png"
 description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
 featureImage = ["images/featureImage.jpg"]
 
