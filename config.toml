@@ -1,7 +1,6 @@
 baseURL = "https://stephenajuluv2.netlify.app/"
 languageCode = "en-us"
 paginate = 6
-theme = "portio"
 title = "Stephen Ajulu's Personal Website, Blog and Portfolio"
 # Main Menu
 [[menu.main]]
