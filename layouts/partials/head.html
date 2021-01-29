@@ -22,6 +22,11 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
+
+  {{ "<!-- SEO -->" | safeHTML }}
+  {{ partial "seo.html" . }}
+
+
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>

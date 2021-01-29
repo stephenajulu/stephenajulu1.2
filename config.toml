@@ -2,7 +2,7 @@ baseURL = "http://stephenajuluv2.netlify.app/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Stephen Ajulu"
+title = "Stephen Ajulu's Personal Website, Blog and Portfolio"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -29,9 +29,14 @@ name = "Blog"
 url = "#blog"
 weight = 6
 [[menu.main]]
+name = "Notes"
+url = "#notes"
+weight = 7
+[[menu.main]]
 name = "Contact"
 url = "#contact"
-weight = 7
+weight = 8
+
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -39,7 +44,7 @@ name = "About me"
 url = "about"
 weight = 1
 [[menu.sitemap]]
-name = "Frequently Ask Question"
+name = "Frequently Ask Questions"
 url = "#"
 weight = 2
 [[menu.sitemap]]
@@ -47,18 +52,23 @@ name = "Privacy & Policy"
 url = "#"
 weight = 3
 [[menu.sitemap]]
-name = "Latest Article"
+name = "Latest Articles"
 url = "#"
 weight = 4
 
+
 [params]
 blogPageURL = "blog"
+notesPageURL = "notes"
 contactLink = "contact"
 copyright = "All right reserved copyright © Stephen Ajulu 2021"
-footerLogo = "images/contact/widget-logo.png"
+footerLogo = "images/logo.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
-logo = "images/site-navigation/logo.png"
+logo = "images/logo.png"
+description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
+featureImage = ["images/featureImage.jpg"]
+
 
 [params.address]
 address = "Nairobi, Kenya"
@@ -89,3 +99,9 @@ weight = 3
 icon = "fa-twitter-square"
 url = "https://twitter.com/stephenajulu"
 weight = 4
+
+[author]
+    name = "Stephen Ajulu"
+    email = "alunje73@gmail.com"
+    twitter = "@stephenajulu"
+    facebook = "stephenajulu"

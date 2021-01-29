@@ -1,45 +1,33 @@
 ---
 enable: true
-topTitle: Working Area
+topTitle: Services
 title: >
-  ## Creative Services
+  ## Here are the services i offer
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+
 service:
-  - content: >
-      #### UI/UX Design 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
   - content: >
       #### Web Development 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      I build fast, secure and search engine optimized websites that have been transformed into progressive web sites
     image: images/service/web.svg
   - content: >
-      #### Creative Design 
+      #### UI/UX Design 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/creative.svg
-  - content: >
-      #### Branding
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      I design smooth and beautiful user interfaces and experiences
     image: images/service/ui-ux.svg
   - content: >
-      #### Web Development
+      #### Graphic Design 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+      I design eye catching logos, posters, and other graphic materials with eye attention to detail
+    image: images/service/creative.svg
+  - content: >
+      #### Brand Building
+
+      I build brands, businesses, companies and startups. Come to me and i'll build you a brand kit to die for!
+    image: images/service/branding.svg
+  - content: >
+      #### I.T and Cybersecurity Consultation
+
+      With my experience building brands, growing companies, learning and blogging in the tech and cybersecurity space, i have amassed a wealth of knowledge that i believe will help you build yours.
+    image: images/service/branding.svg

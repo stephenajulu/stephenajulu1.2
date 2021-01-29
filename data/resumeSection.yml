@@ -15,44 +15,71 @@ tab2Target: experience
 
 education:
   - content: >
-      #### Master in Arts
+      #### Bachelor of Science in Information Technology
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    time: Ongoing
   - content: >
-      #### Master in Arts
+      #### Cloud Introduction
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    time: 24th May 2019
   - content: >
-      #### Master in Arts
+      #### Cybersecurity Intro
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    time: 24th May 2019
   - content: >
-      #### Master in Arts
+      #### Identify and Investigate Cybersecurity Threats
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    time: 24th May 2019
+  - content: >
+      #### Certified Ethical Hacking
+
+    time: 9th April - 18th April 2018
+  - content: >
+      #### Diploma in Information Technology
+
+    time: 9th April - 18th April 2018
+  - content: >
+      #### Diploma in Information Technology
+
+    time: 5th January - 18th December 2017
+  - content: >
+      #### Fundamental System Troubleshooting
+
+    time: 9th December 2016
+  - content: >
+      #### Single Computer Packaged - Adobe Photoshop & Corel Draw
+
+    time: 28th Novemeber 2016
+  - content: >
+      #### Certificate in Business and Information Technology
+
+    time: 7th January - 23rd August 2015
+ - content: >
+      #### Kenya Certificate of Secondary Education
+
+    time: 9th January 2010 - 20th December 2014
+
 
 experience:
   - content: >
-      #### Umbrella co. 
+      #### SAOA Media
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
+      A digital media company i founded
+      Responsibilities: Writing Well Researched Content, Editing other Writers' Content, Building the Website, Maintenance and Writer management
+    time: 2021-Present
   - content: >
-      #### Aperture Science 
+      #### OwlSec 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
+       An I.T and Cybersecurity Agency Founded by me.
+       Responsibilities: Building/Maintenance of it's Website, Web Development, Graphic Design, Search Engine Optimization, Management, Web Performance/Security Optimization among others.
+    time: 2016-2021
   - content: >
-      #### ACME Inc. 
+      #### Ministry of Devolution and Planning 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
+      Responsibilities: Secretariet, Registrar, Conference Material Distributor, Customer Care, Research Assistant, Data Clerk and Data Collection Agent.
+    time: November 2014 & 2015
   - content: >
-      #### LexCorp 
+      #### Ajulu's Thoughts, TechKnow, TechWit, The Noesis Ke, The Bistro Ke Newsletter and Stream254 Blog
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+      Responsibilities: Researching Potential Topics, Ideas and Piches, Supporting other Writers, Writing Tech and Cybersecurity Related Articles, Conducting Surveys and Polls, Editing, Publishing on Site, Syndicating Elsewhere, Customizing and Optimizing Content/Site
+    time: 2014-Present

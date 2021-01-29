@@ -1,13 +1,11 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Hi There! I am Stephen Ajulu
 content: >
-  # I am here for your personal business
+  # I am here to help grow your brand and increase your customer base
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
+    Enjoy a more diverse customer base, 
+    increase your brand's influence and grow your business.
 buttonName: Contact me
 buttonURL: contact
-image: images/hero/2960351.jpg
-videoThumb: images/hero/popup-thumb.png
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+image: images/about/stephenajulu.jpg
