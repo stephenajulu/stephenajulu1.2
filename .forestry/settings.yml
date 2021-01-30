@@ -4,14 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: content/notes
-  label: Notes
-  create: all
-  match: "**/*"
-  new_doc_ext: ".md"
-  templates:
-  - blog-template
 - type: document
   path: data/hero.yml
   label: Hero
@@ -48,6 +40,12 @@ sections:
   label: Blog
   create: all
   match: "**/*"
+- type: directory
+  path: content/notes
+  label: Notes
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
 - type: document
   path: config.toml
   label: Config File
