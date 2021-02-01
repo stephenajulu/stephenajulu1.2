@@ -1,5 +1,10 @@
 name: Webmentions
 
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+
 jobs:
   webmentions:
     runs-on: ubuntu-latest
