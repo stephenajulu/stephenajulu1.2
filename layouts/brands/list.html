@@ -46,10 +46,11 @@
 						<img src="{{ .Params.featureImage | absURL }}" alt="post-image">
 					</div>
 					<div class="blog-page__item-content bg-white">
-						<span class="small">{{ .PublishDate.Format "January 2, 2006" }}<br>{{ .Params.allocation }}!</span>
+						<span class="small">{{ .PublishDate.Format "January 2, 2006" }}</span>
 						<h5 class="mb-0">
 							<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
 						</h5>
+						<h6 class="mb-0">{{ .Params.allocation }}!</h6>
 					</div>
 				</div>
 			</div>
