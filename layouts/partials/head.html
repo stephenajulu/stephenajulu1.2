@@ -39,6 +39,8 @@
   <script src="/js/webmention.min.js" async></script>
   
   {{ partial "opengraph.html" . }}
+  {{ partial "schema.html" . }}
+  {{ partial "twitter_card.html" . }}
   {{ partial "metaicon.html" . }}
   
   {{ with site.Params.googleAnalytics }}
