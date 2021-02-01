@@ -67,6 +67,8 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/favicon.png"
 description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
 featureImage = ["images/featureImage.jpg"]
+image = ["images/featureImage.jpg"]
+images = ["images/featureImage.jpg"]
 
 
 [params.address]
