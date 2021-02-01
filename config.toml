@@ -55,7 +55,7 @@ weight = 2
 [params]
 blogPageURL = "blog"
 notesPageURL = "notes"
-brandssPageURL = "brands"
+brandsPageURL = "brands"
 contactLink = "contact"
 copyright = "All right reserved copyright © Stephen Ajulu 2021"
 footerLogo = "images/favicon.png"
