@@ -66,6 +66,8 @@
           <img src="{{ .Params.thumbnail | absURL }}" alt="case-details" />
         </div>
         {{ .Content }}
+        <div id="webmentions"></div>
+        {{ getJSON (printf “https://webmention.io/api/mentions.html?token=M-PrqiePfzc-iilPLSnc4Q” .Permalink | urlize) }}
       </div>
     </div>
     <div class="row">

@@ -53,6 +53,7 @@
               <div class="singleBlog__content">
                   {{ .Content }}
                 <div id="webmentions"></div>
+                {{ getJSON (printf “https://webmention.io/api/mentions.html?token=M-PrqiePfzc-iilPLSnc4Q” .Permalink | urlize) }}
               </div>
           </div>
       </div>
