@@ -1,5 +1,0 @@
-
-- name: Image Optimizer
-  # You may pin to the exact commit or the version.
-  # uses: crush-pics/crush-pics-github-action@43ce9e319a61c10d7438da324515336caee56492
-  uses: crush-pics/crush-pics-github-action@v1.0
