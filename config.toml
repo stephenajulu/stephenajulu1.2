@@ -37,7 +37,7 @@ url = "#notes"
 weight = 8
 [[menu.main]]
 name = "Contact"
-url = "#contact"
+url = "/contact"
 weight = 9
 
 
