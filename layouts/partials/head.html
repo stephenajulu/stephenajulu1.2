@@ -38,6 +38,7 @@
   {{ "<!-- Webmention script -->" | safeHTML }}
   <script src="/js/webmention.min.js" async></script>
   
+  {{ partial "opengraph.html" . }}
   {{ partial "metaicon.html" . }}
   
   {{ with site.Params.googleAnalytics }}
