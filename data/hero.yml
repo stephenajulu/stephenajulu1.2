@@ -1,11 +1,14 @@
 ---
 enable: true
 topTitle: Hi There! I am Stephen Ajulu
-content: >
-  # I am here to help grow your brand and increase your customer base
-
-    Enjoy a more diverse customer base, 
-    increase your brand's influence and grow your business.
+content: "# I am here to help grow your brand and increase your customer base\n\n
+  \ Enjoy a more diverse customer base, \n  increase your brand's influence and grow
+  your business.\n"
 buttonName: Contact me
 buttonURL: contact
 image: images/about/stephenajulu.jpg
+title: Hi there? I am Stephen Ajulu
+subtitle: ''
+description: I am here to help build and grow your brand to new heights
+videoThumb: ''
+videoURL: ''
