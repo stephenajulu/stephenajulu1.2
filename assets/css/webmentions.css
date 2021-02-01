@@ -68,4 +68,28 @@
 #webmentions .comments li .name {
     color: #111;
 }
+.webmentions li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
 
+.webmention-header {
+  color: var(--text-light);
+}
+
+.webmention-header + .webmention-content:not(:empty) {
+  margin-top: 0.25rem;
+}
+
+.webmention-author {
+  color: var(--text);
+  font-weight: bold;
+}
+
+.webmention-author img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  margin-right: 0.25rem;
+  border-radius: 1rem;
+  transform: translateY(0.4rem);
+}
