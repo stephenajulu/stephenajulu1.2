@@ -2,7 +2,18 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="{{ if .IsPage }}{{ .Site.featureImage | absURL }}{{else}}{{ .Params.featureImage | absURL }}{{ end }}"/>
+{{ with $.Params.images }}{{ range first 6 . -}}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}{{ else -}}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch "*feature*" -}}
+{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+{{- with $featured -}}
+<meta property="og:image" content="{{ $featured.Permalink }}"/>
+{{ else -}}
+{{- with $.Site.Params.images -}}
+<meta property="og:image" content="{{ index . 0 | absURL }}"/>
+{{ end }}{{ end }}{{ end }}
 
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- if .IsPage }}
@@ -33,12 +44,14 @@
   {{- end }}
 {{ end }}{{ end }}
 
-
-<meta property="article:author" content="https://www.facebook.com/stephenajulu" />
-<meta property="article:publisher" content="https://www.facebook.com/stephenajulu" />
+{{- if .IsPage }}
+{{- range .Site.Authors }}{{ with .Social.facebook }}
+<meta property="article:author" content="https://www.facebook.com/{{ . }}" />{{ end }}{{ with .Site.Social.facebook }}
+<meta property="article:publisher" content="https://www.facebook.com/{{ . }}" />{{ end }}
 <meta property="article:section" content="{{ .Section }}" />
 {{- with .Params.tags }}{{ range first 6 . }}
 <meta property="article:tag" content="{{ . }}" />{{ end }}{{ end }}
+{{- end }}{{ end }}
 
 {{- /* Facebook Page Admin ID for Domain Insights */}}
 {{- with .Site.Social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
