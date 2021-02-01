@@ -1,3 +1,14 @@
+# Stephen Ajulu's Personal Website, Blog, Portfolio, Microblog/notes and Brands.
+## Built using Portio Hugo 
+### Bootstrap 4
+#### Added webmentions, brands and notes/microposts.
+##### More changes coming soon
+###### Bye
+
+<br>
+<hr>
+<br>
+
 <h1>Portio Hugo</h1>
 <img src="https://user-images.githubusercontent.com/25920065/91142412-8a895c80-e6d2-11ea-93dd-5de59ce60adf.jpg" alt="screenshot" width="100%">
 
