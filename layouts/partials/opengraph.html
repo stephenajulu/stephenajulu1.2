@@ -2,10 +2,7 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ with $.Params.images }}{{ range first 6 . -}}
-<meta property="og:image" content="{{ . | absURL }}" />
-{{ end }}{{ else -}}
-<meta property="og:image" content="{{ if .IsPage }}{{ .Site.featureImage | absURL }}{{else}}{{.Site.BaseURL}}{{ .Params.featureImage}}{{ end }}"/>
+<meta property="og:image" content="{{ if .IsPage }}{{ .Site.featureImage | absURL }}{{else}}{{ .Params.featureImage | absURL }}{{ end }}"/>
 
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- if .IsPage }}
