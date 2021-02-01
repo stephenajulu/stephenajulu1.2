@@ -28,12 +28,12 @@ name = "Blog"
 url = "#blog"
 weight = 6
 [[menu.main]]
-name = "Notes"
-url = "#notes"
-weight = 7
-[[menu.main]]
 name = "Brands"
 url = "#brands"
+weight = 7
+[[menu.main]]
+name = "Notes"
+url = "#notes"
 weight = 8
 [[menu.main]]
 name = "Contact"
