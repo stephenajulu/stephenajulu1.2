@@ -52,8 +52,6 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: ".md"
-  templates:
-  - blog-template
 - type: document
   path: config.toml
   label: Config File
