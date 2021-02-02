@@ -1,3 +1,4 @@
+<br>
 <div class="pagination__title">
         <span class="pagination__title-h">Replies</span>
         <hr/>
@@ -12,14 +13,14 @@
                             {{ .author.name | humanize }}
                         </a>
                     </p>
-                        <p class="content e-content e-name">
+                        <p class="content text e-content e-name">
                             {{- .content.html | safeHTML }}
                         </p>
                         <a class="u-url" href="{{ .url }}">
                             {{ .url }}
                         </a>
                         &nbsp;@
-                        <time class="dt-published">{{ if .published }}{{ dateFormat $.Site.Params.dateformNumTime .published }}{{ end }}</time>  
+                        <time class="dt-published wm-received">{{ if .published }}{{ dateFormat $.Site.Params.dateformNumTime .published }}{{ end }}</time>  
                     </div>
                     <hr/>
                 {{ end }}
