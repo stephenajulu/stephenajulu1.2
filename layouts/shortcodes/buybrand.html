@@ -17,7 +17,7 @@
 
         createOrder: function(data, actions) {
           return actions.order.create({
-            purchase_units: [{"description":"Test Brand","amount":{"currency_code":"USD","value":10}}]
+            purchase_units: [{"description":"{{ .Get "brandname" }}","amount":{"currency_code":"USD","value":{{ .Get "price" }}}}]
           });
         },
 
