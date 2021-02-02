@@ -45,13 +45,13 @@ sections:
   label: Notes
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: content/brands
   label: Brands
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: document
   path: config.toml
   label: Config File
