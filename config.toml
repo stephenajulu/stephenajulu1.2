@@ -69,7 +69,7 @@ notesPageURL = "notes"
 [params.address]
 address = "Nairobi, Kenya"
 email = "alunje73@gmail.com"
-openingHours = "Contact me from 6am to 7pm (5pm Sundays Only)"
+openingHours = "Contact me anytime between 8am to 7pm(5pm Sundays)"
 phone = "+254 726 024 210"
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
