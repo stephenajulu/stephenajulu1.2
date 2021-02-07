@@ -1,8 +1,13 @@
 baseURL = "https://stephenajulu.com"
 languageCode = "en-us"
 paginate = 6
+theme = ""
 title = "Stephen Ajulu's Personal Website, Blog and Portfolio"
-# Main Menu
+[author]
+email = "alunje73@gmail.com"
+facebook = "stephenajulu"
+name = "Stephen Ajulu"
+twitter = "@stephenajulu"
 [[menu.main]]
 name = "Home"
 url = "#home"
@@ -25,7 +30,7 @@ url = "#resume"
 weight = 5
 [[menu.main]]
 name = "Blog"
-url = "#blog"
+url = "https://blog.stephenajulu.com"
 weight = 6
 [[menu.main]]
 name = "Brands"
@@ -39,48 +44,38 @@ weight = 8
 name = "Contact"
 url = "/contact"
 weight = 9
-
-
-# Sitemap Menu
 [[menu.sitemap]]
 name = "About me"
 url = "#about"
 weight = 1
 [[menu.sitemap]]
 name = "Latest Articles"
-url = "blog"
+url = "https://blog.stephenajulu.com"
 weight = 2
-
-
 [params]
 blogPageURL = "blog"
-notesPageURL = "notes"
 brandsPageURL = "brands"
 contactLink = "contact"
 copyright = "All right reserved copyright © Stephen Ajulu 2021"
+description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
+featureImage = ["images/featureImage.jpg"]
 footerLogo = "images/favicon.png"
 formspreeURL = "https://formspree.io/f/alunje73@gmail.com"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
-logo = "images/favicon.png"
-description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
-featureImage = ["images/featureImage.jpg"]
 image = ["images/featureImage.jpg"]
 images = ["images/featureImage.jpg"]
-
-
+logo = "images/favicon.png"
+notesPageURL = "notes"
 [params.address]
 address = "Nairobi, Kenya"
 email = "alunje73@gmail.com"
 openingHours = "Contact me from 6am to 7pm (5pm Sundays Only)"
 phone = "+254 726 024 210"
-
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
 latitude = "23.7783741"
 longitude = "90.3746808"
 pinImage = "images/pin.png"
-
-# Social icons
 [[params.social]]
 icon = "fa-facebook-official"
 url = "https://www.facebook.com/stephenajulu"
@@ -101,9 +96,3 @@ weight = 4
 icon = "fa-youtube-square"
 url = "https://www.youtube.com/channel/UC043ZXL-t3yqtgcIxJmkHuA"
 weight = 5
-
-[author]
-    name = "Stephen Ajulu"
-    email = "alunje73@gmail.com"
-    twitter = "@stephenajulu"
-    facebook = "stephenajulu"
