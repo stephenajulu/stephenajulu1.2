@@ -1,7 +1,6 @@
 baseURL = "https://stephenajulu.com"
 languageCode = "en-us"
 paginate = 6
-theme = ""
 title = "Stephen Ajulu's Personal Website and Portfolio"
 [author]
 email = "alunje73@gmail.com"
