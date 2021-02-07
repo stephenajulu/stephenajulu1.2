@@ -52,7 +52,6 @@ name = "Latest Articles"
 url = "https://blog.stephenajulu.com"
 weight = 2
 [params]
-blogPageURL = "https://blog.stephenajulu.com"
 brandsPageURL = "brands"
 contactLink = "contact"
 copyright = "All right reserved copyright © Stephen Ajulu 2021"
