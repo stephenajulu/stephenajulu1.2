@@ -1,9 +1,7 @@
 ---
-enable: true
+enable: false
 topTitle: Blog
-title: >
+title: |
   ## Recent Articles
-
   I am also a content creator. Here are some of my articles.
-
 buttonTarget: blog
