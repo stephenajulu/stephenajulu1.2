@@ -28,14 +28,6 @@ name = "Resume"
 url = "#resume"
 weight = 5
 [[menu.main]]
-name = "Brands"
-url = "#brands"
-weight = 6
-[[menu.main]]
-name = "Notes"
-url = "#notes"
-weight = 7
-[[menu.main]]
 name = "Contact"
 url = "/contact"
 weight = 8
@@ -45,10 +37,9 @@ url = "#about"
 weight = 1
 [[menu.sitemap]]
 name = "Latest Articles"
-url = "https://blog.stephenajulu.com"
+url = "https://ajulusthoughts.stephenajulu.com"
 weight = 2
 [params]
-brandsPageURL = "brands"
 contactLink = "contact"
 copyright = "All right reserved copyright © Stephen Ajulu 2021"
 description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
