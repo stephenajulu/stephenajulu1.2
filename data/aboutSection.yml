@@ -12,6 +12,6 @@ button1Name: Hire me!
 button2Name: Download CV
 button1Target: contact
 button2Target: cv.docx
-image: images/about/stephenajulu.jpg
+image: "/images/1615010725018.jpg"
 subtitle: ''
 title2: ''
