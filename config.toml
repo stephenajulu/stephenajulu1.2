@@ -1,6 +1,7 @@
 baseURL = "https://stephenajulu.com"
 languageCode = "en-us"
 paginate = 6
+theme = ""
 title = "Stephen Ajulu's Personal Website and Portfolio"
 [author]
 email = "alunje73@gmail.com"
@@ -40,16 +41,17 @@ name = "Latest Articles"
 url = "https://ajulusthoughts.stephenajulu.com"
 weight = 2
 [params]
+blogPageURL = ""
 contactLink = "contact"
-copyright = "All right reserved copyright © Stephen Ajulu 2021"
+copyright = "All right reserved © Stephen Ajulu 2021"
 description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
 featureImage = ["images/featureImage.jpg"]
-footerLogo = "images/favicon.png"
+footerLogo = "/images/signature-bold-black.png"
 formspreeURL = "https://formspree.io/f/alunje73@gmail.com"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 image = ["images/featureImage.jpg"]
 images = ["images/featureImage.jpg"]
-logo = "images/favicon.png"
+logo = "/images/signature-bold-black.png"
 notesPageURL = "notes"
 [params.address]
 address = "Nairobi, Kenya"
