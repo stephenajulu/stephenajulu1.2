@@ -1,6 +1,7 @@
 baseURL = "https://stephenajulu.com"
 languageCode = "en-us"
 paginate = 6
+theme = ""
 title = "Stephen Ajulu - Tech Consultant & Expert Based in Nairobi, Kenya"
 [author]
 email = "alunje73@gmail.com"
@@ -45,12 +46,12 @@ contactLink = "contact"
 copyright = "© Stephen Ajulu  2015 - Today  "
 description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
 featureImage = ["images/featureImage.jpg"]
-footerLogo = "/images/signature-bold-black.png"
+footerLogo = "/images/stephen-ajulu-signature-black-slim-4.png"
 formspreeURL = "https://formspree.io/f/alunje73@gmail.com"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 image = ["images/featureImage.jpg"]
 images = ["images/featureImage.jpg"]
-logo = "/images/signature-bold-black.png"
+logo = "/images/stephen-ajulu-signature-black-slim-4.png"
 notesPageURL = "notes"
 [params.address]
 address = "Nairobi, Kenya"
