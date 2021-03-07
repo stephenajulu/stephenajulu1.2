@@ -11,9 +11,6 @@ fields:
 - type: text
   name: title
   label: Title
-- type: text
-  name: theme
-  label: theme
 - type: number
   name: paginate
   label: paginate
