@@ -1,6 +1,7 @@
 baseURL = "https://stephenajulu.com"
 languageCode = "en-us"
 paginate = 6
+theme = ""
 title = "Stephen Ajulu - Tech Consultant & Expert Based in Nairobi, Kenya"
 [author]
 email = "alunje73@gmail.com"
@@ -42,7 +43,7 @@ weight = 2
 [params]
 blogPageURL = ""
 contactLink = "contact"
-copyright = "© Stephen Ajulu  2015 - Today  "
+copyright = "© Stephen Ajulu | 2015 - Today  "
 description = "Stephen Ajulu's Personal Website where you can find his portfolio, contacts and articles"
 featureImage = ["images/featureImage.jpg"]
 footerLogo = "/images/stephen-ajulu-signature-white-slim-4.png"
