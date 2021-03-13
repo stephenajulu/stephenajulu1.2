@@ -2,10 +2,10 @@
 enable: true
 topTitle: My Resume
 title: "## My Expertise\n"
-tab1Name: Education
-tab2Name: Experiences
-tab1Target: education
-tab2Target: experience
+tab1Name: Experiences
+tab2Name: Education
+tab1Target: experience
+tab2Target: education
 education:
 - content: "#### Bachelor of Science in Information Technology\n"
   time: Ongoing
@@ -18,8 +18,6 @@ education:
 - content: "#### Certified Ethical Hacking\n"
   time: 9th April - 18th April 2018
 - content: "#### Diploma in Information Technology\n"
-  time: 9th April - 18th April 2018
-- content: "#### Diploma in Information Technology\n"
   time: 5th January - 18th December 2017
 - content: "#### Fundamental System Troubleshooting\n"
   time: 9th December 2016
@@ -27,8 +25,6 @@ education:
   time: 28th Novemeber 2016
 - content: "#### Certificate in Business and Information Technology\n"
   time: 7th January - 23rd August 2015
-- content: "#### Kenya Certificate of Secondary Education\n"
-  time: 9th January 2010 - 20th December 2014
 experience:
 - content: |
     #### SAOA Media
